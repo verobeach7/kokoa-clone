@@ -1,0 +1,26 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 25px;
+}
+
+.icon-row__icon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon svg {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}
+
+.icon-row__icon .screen-header__dot {
+  left: 80px;
+  bottom: 100px;
+}

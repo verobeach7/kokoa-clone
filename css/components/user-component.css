@@ -1,4 +1,5 @@
 .user-component {
+  padding-bottom: 25px;
   justify-content: space-between;
 }
 
@@ -26,6 +27,10 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component__subtitle svg {
+  color: tomato;
+}
+
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
@@ -42,5 +47,17 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__column > svg {
+  color: #2e363e;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
